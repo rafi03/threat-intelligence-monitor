@@ -109,7 +109,7 @@ class ThreatIntelligenceMonitor:
         return stats
     
     def _process_feed(self, source_id: int, name: str, url: str, feed_type: str, 
-                     last_updated: Optional[str], days_back: int) -> Dict[str, Any]:
+                 last_updated: Optional[str], days_back: int) -> Dict[str, Any]:
         """
         Process a feed and store new articles.
         
@@ -172,6 +172,7 @@ class ThreatIntelligenceMonitor:
                     keywords=keywords
                 )
                 
+                # Only increment counter if article was actually added
                 if added:
                     result["new_articles"] += 1
             
