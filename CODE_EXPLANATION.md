@@ -1,4 +1,4 @@
-# Threat Intelligence Monitor: Code Explained for Beginners
+# Threat Intelligence Monitor: Code Explained
 
 This document provides a step-by-step explanation of the Threat Intelligence Monitor code, breaking everything down in beginner-friendly terms. Even if you're new to Python, this guide will help you understand how the project works.
 
